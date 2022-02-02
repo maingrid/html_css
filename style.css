@@ -6,6 +6,10 @@
     font-family: MontserratRegular;
     src: url(font-family/Montserrat-Regular.ttf);
 }
+@font-face {
+    font-family: PTSerif;
+    src: url(font-family/PTSerif-Regular.ttf);
+}
 * {
     box-sizing: border-box;
 }
@@ -75,9 +79,71 @@ body {
     margin: 50px 0 0 0;
     padding: 0;
     color: white;
-    font-size: 23px;
+    font-size: 20px;
     max-width: 500px;
     line-height: 30px;
-    font-family: serif;
+    font-family: PTSerif;
 }
 /* style header */
+
+/* style services */
+.services {
+    height: 480px;
+    background-color: #ffffff;
+}
+.text_services {
+    display: flex;
+    max-width: 360px;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 40px;
+}
+.text_services h3:nth-child(1) {
+    color: #c62314;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.fa {
+    font-size: 100px;
+}
+.text {
+    font-family: PTSerif;
+    font-size: 20px;
+    max-width: 190px;
+}
+/* style services */
+
+/* block our-story */ 
+.our-story {
+    background-color: #130e27;
+    display: flex;
+    height: 120px;
+    font-family: PTSerif;
+    align-items: center;
+    justify-content: space-between;
+}
+.text-story {
+    color: white;
+    max-width: 620px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.button-story {
+    text-transform: uppercase;
+    font-family: MontserratRegular;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    margin-right: 20px;
+    border: 2px solid #c62314;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #c62314
+}
+/* block our-story */ 
+
