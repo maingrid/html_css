@@ -147,3 +147,48 @@ body {
 }
 /* block our-story */ 
 
+/* style price */
+.price {
+    background-color: #efefef;
+    height: 620px;
+}
+.title {
+    
+    margin: 0px 0 40px 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #130e27;
+}
+.container-element {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+.element-price {
+    background-color: #fff;
+    padding: 30px;
+}
+.element-price h2 {
+    color: #c62314;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.element-price p {
+    font-size: 22px;
+    font-family: PTSerif;
+   line-height: 5px;
+}
+.element-price a {
+    text-transform: uppercase;
+    font-family: MontserratRegular;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    border: 2px solid #130e27;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #130e27;
+    margin-top: 20px;
+}
