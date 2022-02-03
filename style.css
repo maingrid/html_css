@@ -33,7 +33,7 @@ body {
     
 }
 .logo {
-    margin: 5px 0 0 5px;
+    margin: 10px 0 0 10px;
 }
 .nav {
     display: flex;
@@ -169,6 +169,7 @@ body {
 .element-price {
     background-color: #fff;
     padding: 30px;
+    margin-top: 40px;
 }
 .element-price h2 {
     color: #c62314;
@@ -178,7 +179,7 @@ body {
 .element-price p {
     font-size: 22px;
     font-family: PTSerif;
-   line-height: 5px;
+    line-height: 7px;
 }
 .element-price a {
     text-transform: uppercase;
@@ -191,4 +192,25 @@ body {
     padding: 5px;
     background-color: #130e27;
     margin-top: 20px;
+}
+.element-price a:hover {
+    background-color: #c62314;
+    border: 2px solid #c62314;
+}
+/* style price */
+
+/* style footer */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    align-items: center;
+    background-color: #130e27;
+}
+.color-text {
+    color: #c62314;
+}
+.text-footer {
+    font-family: PTSerif;
+    color: white;
 }
